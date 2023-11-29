@@ -23,118 +23,113 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "mingyeolee",
+    lastName: "",
+    initials: "mingyeolee", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Creator",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '',
+            text: 'Writer'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+            emoji: '',
+            text: 'OJI-SAN'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: '',
+            text: 'Based in KOREA'
         },
         {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
+            link: "mailto:mingyeoleekr@gmail.com",
+            emoji: '',
+            text: 'E-mail: Touch This!'
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
+            link: "https://mingyeolee.com",
+            icon: 'fa fa-home',
+            label: 'homepage'
         },
         {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
+            link: "https://mingyeolee.postype.com/",
+            icon: "fa fa-book",
+            label: 'postype'
         },
         {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
+            link: "https://twitter.com/mingyeolee",
             icon: "fa fa-twitter",
             label: 'twitter'
+        },
+        {
+            link: "https://www.youtube.com/channel/UC96m7ts6LCfD7ze1HogGB8A",
+            icon: 'fa fa-youtube',
+            label: 'youtube'
+        },
+        {
+            link: "https://www.twitch.tv/mingyeolee",
+            icon: 'fa fa-twitch',
+            label: 'twitch'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "The origin of 'mingyeolee' name: That's right. People like me are difficult. I know that I'm broken. But I'd still like it If you didn't give up on me. If I can only be fixed, I will be truly beautiful, So please don't abandon me. (NELL - Separation Anxiety)",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Blogging', 'Writing', 'Writing lyrics'],
+            exposedTo: ['Streaming', 'Youtube', 'Games', 'Talking', 'Dancing', 'Singing']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Blogging',
+            emoji: ''
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Writing',
+            emoji: ''
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'Music',
+            emoji: ''
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Security Analysis',
+            emoji: ''
+        },
+        {
+            label: 'Stock Investing',
+            emoji: ''
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+    {
+        title: "Cosmos Sound - Twenty (Lyrics)",
+        live: "https://www.youtube.com/watch?v=UU6xV8fhsyo", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        image: mock1
+    },
+    {
+        title: "zziritchan - VRChat (Lyrics)",
+        live: "https://www.youtube.com/watch?v=bDau2SBzsq8",
+        image: mock2
+    },
+    {
+        title: "TASTE TEST",
+        live: "https://mingyeolee.postype.com/post/12546109",
+        image: mock3
+    },
+    {
+        title: "Like",
+        live: "https://mingyeolee.postype.com/post/14510509",
+        image: mock4
+    }
     ]
 }
