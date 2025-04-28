@@ -26,7 +26,7 @@ export const info = {
     firstName: "mingyeolee",
     lastName: "",
     initials: "mingyeolee", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Creator",
+    position: "a Writer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -37,14 +37,14 @@ export const info = {
         },
         {
             emoji: '',
-            text: 'OJI-SAN'
+            text: 'Blogging'
         },
         {
             emoji: '',
             text: 'Based in KOREA'
         },
         {
-            link: "mailto:mingyeoleekr@gmail.com",
+            link: "mailto:imingyeolee@gmail.com",
             emoji: '',
             text: 'E-mail: Touch This!'
         }
@@ -56,7 +56,7 @@ export const info = {
             label: 'homepage'
         },
         {
-            link: "https://mingyeolee.postype.com/",
+            link: "https://alsruf.postype.com/",
             icon: "fa fa-book",
             label: 'postype'
         },
@@ -69,42 +69,29 @@ export const info = {
             link: "https://www.youtube.com/channel/UC96m7ts6LCfD7ze1HogGB8A",
             icon: 'fa fa-youtube',
             label: 'youtube'
-        },
-        {
-            link: "https://www.twitch.tv/mingyeolee",
-            icon: 'fa fa-twitch',
-            label: 'twitch'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "The origin of 'mingyeolee' name: That's right. People like me are difficult. I know that I'm broken. But I'd still like it If you didn't give up on me. If I can only be fixed, I will be truly beautiful, So please don't abandon me. (NELL - Separation Anxiety)",
+    bio: "Writer",
     skills:
         {
-            proficientWith: ['Blogging', 'Writing', 'Writing lyrics'],
-            exposedTo: ['Streaming', 'Youtube', 'Games', 'Talking', 'Dancing', 'Singing']
+            proficientWith: ['Writing', 'Invesitng'],
+            exposedTo: ['Streaming', 'Youtube', 'Games', 'Talking']
         }
     ,
     hobbies: [
-        {
-            label: 'Blogging',
-            emoji: ''
-        },
         {
             label: 'Writing',
             emoji: ''
         },
         {
-            label: 'Music',
+            label: 'Listening to Music',
             emoji: ''
         },
         {
             label: 'Security Analysis',
-            emoji: ''
-        },
-        {
-            label: 'Stock Investing',
             emoji: ''
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -112,24 +99,24 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
     {
-        title: "Cosmos Sound - Twenty (Lyrics)",
-        live: "https://www.youtube.com/watch?v=UU6xV8fhsyo", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-        image: mock1
+        title: "-",
+        live: "https://www.postype.com/@alsruf", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        image: mock7
     },
     {
-        title: "zziritchan - VRChat (Lyrics)",
-        live: "https://www.youtube.com/watch?v=bDau2SBzsq8",
-        image: mock2
+        title: "-",
+        live: "https://www.postype.com/@alsruf",
+        image: mock8
     },
     {
-        title: "TASTE TEST",
-        live: "https://mingyeolee.postype.com/post/12546109",
-        image: mock3
+        title: "-",
+        live: "https://www.postype.com/@alsruf",
+        image: mock9
     },
     {
-        title: "Like",
-        live: "https://mingyeolee.postype.com/post/14510509",
-        image: mock4
+        title: "-",
+        live: "https://www.postype.com/@alsruf",
+        image: mock6
     }
     ]
 }
