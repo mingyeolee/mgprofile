@@ -101,22 +101,22 @@ export const info = {
     {
         title: "-",
         live: "https://www.postype.com/@alsruf", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-        image: mock7
+        image: mock1
     },
     {
         title: "-",
         live: "https://www.postype.com/@alsruf",
-        image: mock8
+        image: mock2
     },
     {
         title: "-",
         live: "https://www.postype.com/@alsruf",
-        image: mock9
+        image: mock3
     },
     {
         title: "-",
         live: "https://www.postype.com/@alsruf",
-        image: mock6
+        image: mock4
     }
     ]
 }
